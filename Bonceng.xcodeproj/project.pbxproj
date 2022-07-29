@@ -39,6 +39,8 @@
 		721F3A532892AF2700DCB178 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721F3A522892AF2700DCB178 /* HomeController.swift */; };
 		722EBC8D2892321000116449 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722EBC8C2892321000116449 /* Extensions.swift */; };
 		722EBC8F289249F500116449 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722EBC8E289249F500116449 /* SignupController.swift */; };
+		72C4CDF928938DBA00001E74 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4CDF828938DBA00001E74 /* LocationInputActivationView.swift */; };
+		72C4CDFB2893962100001E74 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4CDFA2893962100001E74 /* LocationInputView.swift */; };
 		72E63F24289222C600C25E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E63F23289222C600C25E08 /* AppDelegate.swift */; };
 		72E63F26289222C600C25E08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E63F25289222C600C25E08 /* SceneDelegate.swift */; };
 		72E63F2B289222C600C25E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E63F29289222C600C25E08 /* Main.storyboard */; };
@@ -53,6 +55,8 @@
 		721F3A522892AF2700DCB178 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		722EBC8C2892321000116449 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		722EBC8E289249F500116449 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		72C4CDF828938DBA00001E74 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
+		72C4CDFA2893962100001E74 /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		72E63F20289222C600C25E08 /* Bonceng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonceng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E63F23289222C600C25E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72E63F25289222C600C25E08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				721F3A162892630700DCB178 /* AuthButton.swift */,
+				72C4CDF828938DBA00001E74 /* LocationInputActivationView.swift */,
+				72C4CDFA2893962100001E74 /* LocationInputView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,9 +289,11 @@
 				72E63F24289222C600C25E08 /* AppDelegate.swift in Sources */,
 				721F3A172892630700DCB178 /* AuthButton.swift in Sources */,
 				721F3A532892AF2700DCB178 /* HomeController.swift in Sources */,
+				72C4CDFB2893962100001E74 /* LocationInputView.swift in Sources */,
 				72E63F40289225CD00C25E08 /* LoginController.swift in Sources */,
 				72E63F26289222C600C25E08 /* SceneDelegate.swift in Sources */,
 				722EBC8F289249F500116449 /* SignupController.swift in Sources */,
+				72C4CDF928938DBA00001E74 /* LocationInputActivationView.swift in Sources */,
 				722EBC8D2892321000116449 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

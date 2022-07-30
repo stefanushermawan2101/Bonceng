@@ -42,6 +42,8 @@
 		72C4CDF928938DBA00001E74 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4CDF828938DBA00001E74 /* LocationInputActivationView.swift */; };
 		72C4CDFB2893962100001E74 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4CDFA2893962100001E74 /* LocationInputView.swift */; };
 		72C4CDFD2893C10E00001E74 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C4CDFC2893C10E00001E74 /* LocationCell.swift */; };
+		72D5F0B828952D67003F8817 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F0B728952D67003F8817 /* Service.swift */; };
+		72D5F0BA28953912003F8817 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F0B928953912003F8817 /* User.swift */; };
 		72E63F24289222C600C25E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E63F23289222C600C25E08 /* AppDelegate.swift */; };
 		72E63F26289222C600C25E08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E63F25289222C600C25E08 /* SceneDelegate.swift */; };
 		72E63F2B289222C600C25E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E63F29289222C600C25E08 /* Main.storyboard */; };
@@ -59,6 +61,8 @@
 		72C4CDF828938DBA00001E74 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
 		72C4CDFA2893962100001E74 /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		72C4CDFC2893C10E00001E74 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		72D5F0B728952D67003F8817 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		72D5F0B928953912003F8817 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		72E63F20289222C600C25E08 /* Bonceng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonceng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E63F23289222C600C25E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72E63F25289222C600C25E08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 		72E63F3A2892232A00C25E08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				72D5F0B928953912003F8817 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 		72E63F3D2892234900C25E08 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				72D5F0B728952D67003F8817 /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -297,6 +303,8 @@
 				72E63F26289222C600C25E08 /* SceneDelegate.swift in Sources */,
 				72C4CDFD2893C10E00001E74 /* LocationCell.swift in Sources */,
 				722EBC8F289249F500116449 /* SignupController.swift in Sources */,
+				72D5F0BA28953912003F8817 /* User.swift in Sources */,
+				72D5F0B828952D67003F8817 /* Service.swift in Sources */,
 				72C4CDF928938DBA00001E74 /* LocationInputActivationView.swift in Sources */,
 				722EBC8D2892321000116449 /* Extensions.swift in Sources */,
 			);
